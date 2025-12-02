@@ -1,6 +1,6 @@
 # Patient Satisfaction Survey Analysis
 
-This project analyzes patient satisfaction data collected from a dental clinic survey. The goal is to clean the dataset, evaluate reliability, explore correlations, run regression analysis, and generate key insights about factors influencing patient commitment and recommendation behavior.
+This project analyzes patient satisfaction data collected from a dental clinic survey. The goal is to clean the dataset, evaluate reliability, explore correlations, run regression analysis, create Power BI visuals, and generate key insights about factors influencing patient commitment and recommendation behavior.
 
 ## 1. Data Cleaning
 - Removed duplicate entries
@@ -38,16 +38,26 @@ This indicates excellent internal consistency.
 
 Regression results indicate that Sensory and Emotional dimensions positively influence commitment, while Professional has little effect.
 
-## 6. Visualizations
+## 6. Visualizations (Python)
 The project includes:
 - Heatmap of all survey question correlations
 - Bar chart showing correlation with commitment
-- Scatter plots for top correlated questions
+- Scatter plots for the top correlated questions
 - Regression coefficient plot
 - Histograms and boxplots for Sensory, Emotional, and Professional dimensions
 - Scatter plots of each dimension vs. commitment
 
-## 7. Demographic Insights
+## 7. Power BI Dashboard
+A Power BI dashboard was created to visually present:
+- Overall patient satisfaction levels
+- Commitment and recommendation scores
+- Comparison of satisfaction across age groups and gender
+- Visual breakdown of Sensory, Emotional, and Professional dimensions
+- Key KPIs and interactive charts to help understand patient experience trends
+
+The dashboard enhances the analysis by providing clear, interactive, and business-friendly visuals that support decision-making.
+
+## 8. Demographic Insights
 
 ### By Age Group
 - Ages 18–25: highest commitment (3.63)
@@ -64,7 +74,7 @@ Younger patients show slightly higher commitment.
 Females show slightly higher commitment.
 
 ## Conclusion
-This project provides a full end-to-end analysis of patient satisfaction including data cleaning, reliability testing, correlation study, regression modeling, and visual analytics. It highlights key factors that influence patient commitment and recommendation behavior.
+This project provides a full end-to-end analysis of patient satisfaction including data cleaning, reliability testing, correlation study, regression modeling, Power BI visualization, and Python-based analytics. It highlights key factors that influence patient commitment and recommendation behavior.
 
 ## Tools & Technologies
 - Python
@@ -72,3 +82,4 @@ This project provides a full end-to-end analysis of patient satisfaction includi
 - Pandas, NumPy
 - Matplotlib, Seaborn
 - Statsmodels / Scikit-learn
+- Power BI
